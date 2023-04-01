@@ -8,7 +8,7 @@ type Props = {
 
 const Footer = ({ setSelectedPage }: Props) => {
   return (
-    <footer className="bg-primary-100 py-16">
+    <footer className="bg-[#14213D] py-16 text-white">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
             <div className="mt-16 basis-1/2 md:mt-0">
                 <img src={Logo} alt="logo" />
@@ -22,21 +22,21 @@ const Footer = ({ setSelectedPage }: Props) => {
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Links</h4>
                 <AnchorLink
-                    className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"
                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                     href={`#${SelectedPage.Benefits}`}
                 >
                     <p className="text-[16px] mt-2">Benefits</p>
                 </AnchorLink>
                 <AnchorLink
-                    className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"
                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                     href={`#${SelectedPage.OurClasses}`}
                 >
                     <p className="text-[16px] mt-2">Our Classes</p>
                 </AnchorLink>
                 <AnchorLink
-                    className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"
                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                     href={`#${SelectedPage.ContactUs}`}
                 >

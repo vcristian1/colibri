@@ -11,17 +11,22 @@ import BenefitsPageGraphic from '../../assets/BenefitsPageGraphic.png';
 const benefits: Array<BenefitType> = [
     {
         icon: <HomeModernIcon className='h-6 w-6' />,
-        title: "State of the Art Facilities",
+        title: "Electrical",
         description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
     },
     {
         icon: <UserGroupIcon className='h-6 w-6' />,
-        title: "100's of Diverse Classes",
+        title: "Carpentry",
         description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
     },
     {
         icon: <AcademicCapIcon className='h-6 w-6' />,
-        title: "Expert and Pro Trainers",
+        title: "Plumbing",
+        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+    },
+    {
+        icon: <AcademicCapIcon className='h-6 w-6' />,
+        title: "Painting",
         description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
     },
 ]
@@ -58,11 +63,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
                visible: { opacity: 1, x: 0 },
              }}
             >
-                <HText>MORE THAN JUST A GYM</HText>
+                <HText>STATE-OF-THE-ART RENOVATIONS</HText>
                 <p className="my-5 text-sm">
-                    We provide world class fitness equipment, trainers and classes to
-                    get you to your ultimate fitness goals with ease. We provide true
-                    care into each and every member.
+                Colibri has been in the Construction Industry for over 20 years and has managed thousands of successful home renovation and repair projects. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs.
                 </p>
             </motion.div>
 
