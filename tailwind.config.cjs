@@ -21,6 +21,9 @@ module.exports = {
         "gradient-yellowred":
           "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
         "mobile-home": "url('./assets/HomePageGraphic.png')",
+        "benefitrenovation": "url('./assets/BenefitRenovation.png')",
+        "benefitremodel": "url('./assets/BenefitRemodel.png')",
+        "benefitrepair": "url('./assets/BenefitRepair.png')",
       }),
       fontFamily: {
         sourcecodepro: ["Source Code Pro"],
@@ -31,6 +34,7 @@ module.exports = {
         abstractwaves: "url('./assets/AbstractWaves.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
+
       },
     },
     screens: {

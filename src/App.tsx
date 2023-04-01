@@ -7,7 +7,6 @@ import Footer from "./scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "./shared/types";
 
-
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
   const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);

@@ -20,7 +20,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap -16 bg-gray-20 py-10 md:h-full"
+     className="gap -16 bg-benefitremodel py-10 md:h-full"
     >
         {/* Image and Main Header Here */}
         <motion.div 
@@ -43,18 +43,19 @@ const Home = ({ setSelectedPage }: Props) => {
                  initial="hidden"
                  whileInView="visible"
                  viewport={{ once: true, amount: 0.5 }}
-                 transition={{ duration: 0.5 }}
+                 transition={{ delay: 0.5, duration: 0.5 }}
                  variants={{
                     hidden: { opacity:0, x:-50},
                     visible: { opacity: 1, x: 0},
                  }}
                 >
                     <div className="relative">
-                        <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
+                        <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:-mb-5">
                             <img src={HomePageText} alt="home-page-text" />
+                            <h1 className="text-[#FCA311] font-semibold text-3xl">Construction Services</h1>
                         </div>
                     </div>
-                    <p className="mt-8 text-sm">
+                    <p className="mt-8 text-[15px]">
                     Colibri is a full-service construction company located in Chicago, IL. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs. We are committed to providing quality workmanship and customer service to our clients.
                     </p>
                 </motion.div>
@@ -65,7 +66,7 @@ const Home = ({ setSelectedPage }: Props) => {
                  initial="hidden"
                  whileInView="visible"
                  viewport={{ once: true, amount: 0.5 }}
-                 transition={{ delay: 0.2, duration: 0.5 }}
+                 transition={{ delay: 1, duration: 0.5 }}
                  variants={{
                     hidden: { opacity:0, x:-50},
                     visible: { opacity: 1, x: 0},
@@ -73,7 +74,7 @@ const Home = ({ setSelectedPage }: Props) => {
                  >
                     <ActionButton 
                      setSelectedPage={setSelectedPage}
-                    > Request a Quote 
+                    > Request an Estimate 
                     </ActionButton>
                     
                 </motion.div>
@@ -87,13 +88,23 @@ const Home = ({ setSelectedPage }: Props) => {
         {/* Sponsors Here */}
         {isAboveMediumScreens && (
             <div className="h-[150px] w-full bg-[#FFC132] py-10">
-                <div className="mx-auto w-5/6">
+                <motion.div 
+                 className="mx-auto w-5/6"
+                 initial="hidden"
+                 whileInView="visible"
+                 viewport={{ once: true, amount: 0.5 }}
+                 transition={{ delay: 1.3, duration: 0.5 }}
+                 variants={{
+                    hidden: { opacity:0, x:-50},
+                    visible: { opacity: 1, x: 0},
+                 }}
+                >
                     <div className="flex w-3/5 items-center justify-between gap-8">
                         <img src={SponsorForbes} alt="sponsor-forbes" />
                         <img src={SponsorFortune} alt="sponsor-fortune" />
                         <img src={SponsorAG} alt="sponsor-ag" />
                     </div>
-                </div>
+                </motion.div>
             </div>
         )}
     </section>

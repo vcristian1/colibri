@@ -9,7 +9,7 @@ type Props = {
 }
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `w-full rounded-lg bg-[#14213D] px-5 py-3 placeholder-white mt-5`
+  const inputStyles = `w-full rounded-lg bg-[#14213D] px-5 py-3 placeholder-white mt-5 text-white`
 
   const {
     register,
@@ -42,12 +42,10 @@ const ContactUs = ({ setSelectedPage }: Props) => {
              }}
             >
                 <HText>
-                    <span className="text-[#FCA311]">LETS CHAT</span> ABOUT YOUR PROJECT
+                    NEED AN<span className="text-[#FCA311]"> ESTIMATE?</span>
                 </HText>
                 <p className="my-5">
-                    Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-                    sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-                    adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+                    Fill out the form below to begin. Our team will get back to you right away regarding your inquiry.
                 </p>
             </motion.div>
 
@@ -90,6 +88,24 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                             </p>
                         )}
 
+                        <input className={inputStyles} type="text" placeholder='PHONE NUMBER' required {...register ("name", {
+                            required: true
+                        })}/>
+                        {errors.email && (
+                            <p className="mt-1 text-primary-500">
+                              {errors.email.type === "required" && "This field is required."}
+                            </p>
+                        )}
+
+                        <input className={inputStyles} type="number" placeholder='BUDGET' required {...register ("name", {
+                            required: true
+                        })}/>
+                        {errors.email && (
+                            <p className="mt-1 text-primary-500">
+                              {errors.email.type === "required" && "This field is required."}
+                            </p>
+                        )}
+
                         <textarea
                             className={inputStyles}
                             placeholder="MESSAGE"
@@ -129,7 +145,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, y: 0 },
                     }}
                 >
-                    <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
+                    <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
                     <img
                         className="w-full"
                         alt="contact-us-page-graphic"

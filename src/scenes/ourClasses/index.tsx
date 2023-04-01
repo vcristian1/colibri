@@ -12,13 +12,13 @@ import Class from "./Class";
 
 const classes: Array<ClassType> = [
   {
-    name: "Weight Training Classes",
+    name: "Basement Renovation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "A completely finished residential basement that was originally unfinished.",
     image: image1,
   },
   {
-    name: "Yoga Classes",
+    name: "Bathroom Renovation",
     image: image2,
   },
   {
@@ -52,7 +52,7 @@ type Props = {
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
 
-  <section id="ourclasses" className="w-full bg-[#FCA311] py-40">
+  <section id="ourclasses" className="w-full bg-secondary-500 py-40">
     <motion.div
      onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
     >
@@ -68,12 +68,9 @@ const OurClasses = ({ setSelectedPage }: Props) => {
        }}
       >
         <div>
-          <HText>PORTFOLIO</HText>
+          <HText>VIEW OUR COMPLETED PROJECTS</HText>
           <p className="py-5">
-            Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-            tellus quam porttitor. Mauris velit euismod elementum arcu neque
-            facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-            enim mattis odio in risus nunc.
+            Colibri has completed numerous residential and commercial construction projects for clients such as the Cultural Center of Chicago, Jessie Brown VA Hospital, Belmont Assembly of God, etc.
           </p>
         </div>
       </motion.div>
