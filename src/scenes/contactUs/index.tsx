@@ -9,7 +9,7 @@ type Props = {
 }
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white mt-5`
+  const inputStyles = `w-full rounded-lg bg-[#14213D] px-5 py-3 placeholder-white mt-5`
 
   const {
     register,
@@ -42,7 +42,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
              }}
             >
                 <HText>
-                    <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
+                    <span className="text-[#FCA311]">LETS CHAT</span> ABOUT YOUR PROJECT
                 </HText>
                 <p className="my-5">
                     Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
@@ -111,7 +111,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
                         <button
                             type="submit"
-                            className="text-[18px] mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white hover:bg-primary"
+                            className="text-[18px] mt-5 rounded-lg bg-secondary-500 hover:bg-[#FCA311] px-20 py-3 transition duration-500 hover:text-white hover:bg-primary"
                         >
                             SUBMIT
                         </button>                        

@@ -11,23 +11,18 @@ import BenefitsPageGraphic from '../../assets/BenefitsPageGraphic.png';
 const benefits: Array<BenefitType> = [
     {
         icon: <HomeModernIcon className='h-6 w-6' />,
-        title: "Electrical",
-        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        title: "Remodeling",
+        description: "Kitchen/Bathroom Remodels, Room Additions, Basement Finishing, etc."
     },
     {
         icon: <UserGroupIcon className='h-6 w-6' />,
-        title: "Carpentry",
-        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        title: "Renovations",
+        description: "Interior/Exterior Renovations, Structural Repairs, etc."
     },
     {
         icon: <AcademicCapIcon className='h-6 w-6' />,
-        title: "Plumbing",
-        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
-    },
-    {
-        icon: <AcademicCapIcon className='h-6 w-6' />,
-        title: "Painting",
-        description: "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        title: "Repairs",
+        description: "Plumbing Repairs, Electrical Repairs, HVAC Repairs, etc."
     },
 ]
 
@@ -63,7 +58,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                visible: { opacity: 1, x: 0 },
              }}
             >
-                <HText>STATE-OF-THE-ART RENOVATIONS</HText>
+                <HText>ABOUT</HText>
                 <p className="my-5 text-sm">
                 Colibri has been in the Construction Industry for over 20 years and has managed thousands of successful home renovation and repair projects. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs.
                 </p>

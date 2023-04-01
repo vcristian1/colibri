@@ -11,13 +11,12 @@ const Footer = ({ setSelectedPage }: Props) => {
     <footer className="bg-[#14213D] py-16 text-white">
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
             <div className="mt-16 basis-1/2 md:mt-0">
-                <img src={Logo} alt="logo" />
+                {/* <img src={Logo} alt="logo" /> */}
+                <h1 className="text-2xl">COLIBRI</h1>
                 <p className="my-5">
-                    Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-                    purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-                    orci ut habitant laoreet. Iaculis tristique.
+                Colibri is committed to providing quality workmanship and customer service to our clients,  and our team of experienced professionals will ensure that all projects are completed on time and within budget.
                 </p>
-                <p>© Evogym All Rights Reserved.</p>
+                <p>© Colibri All Rights Reserved.</p>
             </div>
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Links</h4>
