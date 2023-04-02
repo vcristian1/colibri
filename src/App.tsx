@@ -1,6 +1,6 @@
 import Navbar from "./scenes/navbar";
 import Home from "./scenes/home";
-import OurClasses from "./scenes/ourClasses";
+import OurClasses from "./scenes/ourProjects";
 import Benefits from "./scenes/benefits";
 import ContactUs from "./scenes/contactUs"
 import Footer from "./scenes/footer";

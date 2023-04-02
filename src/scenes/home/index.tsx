@@ -52,7 +52,7 @@ const Home = ({ setSelectedPage }: Props) => {
                     <div className="relative">
                         <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:-mb-5">
                             <img src={HomePageText} alt="home-page-text" />
-                            <h1 className="text-[#FCA311] font-semibold text-3xl">Construction Services</h1>
+                            <h1 className="text-[#FCA311] font-semibold text-3xl mt-5 ml-1 md:ml-0 md:mt-2 md:mb-10">Construction Services</h1>
                         </div>
                     </div>
                     <p className="mt-8 text-[15px] font-semibold">

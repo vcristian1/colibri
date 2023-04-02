@@ -58,7 +58,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                visible: { opacity: 1, x: 0 },
              }}
             >
-                <HText>BENEFTIS OF WORKING WITH {" "}<span className='text-[#FCA311]'>COLIBRI</span></HText>
+                <HText>THE BENEFTIS OF HIRING {" "}<span className='text-[#FCA311]'>COLIBRI</span></HText>
                 <p className="my-5">
                 Colibri has been in the Construction Industry for over 20 years and has managed hundreds of successful home renovation and repair projects. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs.
                 </p>
