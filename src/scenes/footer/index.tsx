@@ -44,8 +44,8 @@ const Footer = ({ setSelectedPage }: Props) => {
             </div>
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Contact Us</h4>
-                <p className="my-5">customerservice@evogym.com</p>
-                <p>+1 (333) 425 6825</p>
+                <p className="my-5">customerservice@colibri.com</p>
+                <p>📞{" "}<span className="underline">(312)-275-2443</span></p>
             </div>
         </div>
     </footer>

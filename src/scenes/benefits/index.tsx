@@ -111,10 +111,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 <img className="mx-auto" src={BenefitsPageGraphic} alt="benefits-page-graphic" />
 
                 {/* DESCRIPTION HERE */}
-                <div>
+                <div className='mb-[120px] md:mb-[60px] lg:mb-16'>
                     {/* TITLE HERE */}
                     <div className='relative'>
-                        <div className='before:asolute before:-top-20 before:-left-20 before:z-[-1] before:content-abstractwaves'>
+                        <div className='mt-[120px] md:mt-[60px] lg-mt-[120px]'>
                             <motion.div
                              className='md:my-5 md:w-3/5'
                              initial="hidden"
