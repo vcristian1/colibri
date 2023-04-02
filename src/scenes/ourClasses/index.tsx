@@ -31,7 +31,7 @@ const classes: Array<ClassType> = [
     
     name: "Painting",
     description:
-      "Colibri plastered and painted this living room in the Chicagoland area in 2023.",
+      "A living room in the Chicagoland area plastered and painted by Colibri in 2023.",
     image: image3,
   },
   {
