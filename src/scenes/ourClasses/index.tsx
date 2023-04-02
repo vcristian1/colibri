@@ -22,17 +22,17 @@ const classes: Array<ClassType> = [
     image: image2,
   },
   {
-    name: "Kitchen Renovation",
-    description:
-      "A gut kitchen renovation in the Chicagoland area completed by Colibri in 2021.",
-    image: image4,
-  },
-  {
     
     name: "Painting",
     description:
       "A living room in the Chicagoland area plastered and painted by Colibri in 2023.",
     image: image3,
+  },
+  {
+    name: "Kitchen Renovation",
+    description:
+      "A gut kitchen renovation in the Chicagoland area completed by Colibri in 2021.",
+    image: image4,
   },
   {
     name: "Flooring",
