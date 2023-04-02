@@ -54,31 +54,39 @@ type Props = {
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
 
-  <section id="projects" className="w-full bg-secondary-500 py-40">
+  <section id="projects" className="w-full bg-secondary-500 py-40 md:py-20">
     <motion.div
+     className="relative"
      onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
     >
       <motion.div
-       className="mx-auto w-5/6"
+       className="mx-auto w-5/6 before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext lg:before:content-evolvetext"
        initial="hidden"
        whileInView="visible"
        viewport={{ once: true, amount: 0.5 }}
        transition={{ duration: 0.5 }}
        variants={{
-       hidden: { opacity:0, x:-50},
+       hidden: { opacity:0, x:-90},
        visible: { opacity: 1, x: 0},
        }}
       >
-        <div>
-          <HText>VIEW OUR COMPLETED PROJECTS</HText>
-          <p className="py-5">
-            Colibri has completed numerous residential and commercial construction projects for clients such as the Cultural Center of Chicago, Jessie Brown VA Hospital, Belmont Assembly of God, etc.
-          </p>
-        </div>
+        
+        <HText>FEATURED PROJECTS</HText>
+        
       </motion.div>
 
       {/* Side Scroll Here */}
-      <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
+      <motion.div 
+       className="mt-10 md:mt-10 lg:mt-[80px] h-[353px] w-full overflow-x-auto overflow-y-hidden"
+       initial="hidden"
+       whileInView="visible"
+       viewport={{ once: true, amount: 0.5 }}
+       transition={{ delay: 0.75, duration: .75 }}
+       variants={{
+         hidden: { opacity: 0, x: -90 },
+         visible: { opacity: 1, x: 0 },
+       }}
+      >
         <ul className="w-[2800px] whitespace-nowrap">
           {classes.map((item: ClassType, index) => (
             <Class 
@@ -89,7 +97,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             />
           ))}
         </ul>
-      </div>
+      </motion.div>
     </motion.div>
   </section>  
 )

@@ -52,10 +52,10 @@ const Home = ({ setSelectedPage }: Props) => {
                     <div className="relative">
                         <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:-mb-5">
                             <img src={HomePageText} alt="home-page-text" />
-                            <h1 className="text-[#FCA311] font-semibold text-3xl mt-5 ml-1 md:ml-0 md:mt-2 md:mb-10">Construction Services</h1>
+                            <h1 className="text-[#FCA311] font-semibold text-3xl mt-5 ml-1 md:ml-0 md:mt-2 md:mb-10 lg:mt-5">Construction Services</h1>
                         </div>
                     </div>
-                    <p className="mt-8 text-[15px] font-semibold">
+                    <p className="mt-8 text-[15px] font-semibold lg:text-[20px]">
                     Colibri is a full-service construction company located in Chicago, IL. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs. We are committed to providing quality workmanship and customer service to our clients.
                     </p>
                 </motion.div>
@@ -80,14 +80,14 @@ const Home = ({ setSelectedPage }: Props) => {
                 </motion.div>
             </div>
             {/* Image Here */}
-            <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
+            <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end lg:mt-[170px]">
                 <img src={HomePageGraphic} alt="home-page-graphic" />
             </div>
         </motion.div>
 
         {/* Sponsors Here */}
         {isAboveMediumScreens && (
-            <div className="lg:mt-4 h-[158px] w-full bg-[#FFC132] py-10">
+            <div className="lg:mt-4 h-[158px] w-full py-10">
                 <motion.div 
                  className="mx-auto w-5/6"
                  initial="hidden"

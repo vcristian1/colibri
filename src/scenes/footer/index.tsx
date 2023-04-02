@@ -21,21 +21,21 @@ const Footer = ({ setSelectedPage }: Props) => {
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Links</h4>
                 <AnchorLink
-                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"
+                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311] transition duration-500"
                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                     href={`#${SelectedPage.Benefits}`}
                 >
                     <p className="text-[16px] mt-2">Benefits</p>
                 </AnchorLink>
                 <AnchorLink
-                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"
+                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311] transition duration-500"
                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                     href="#projects"
                 >
                     <p className="text-[16px] mt-2">Projects</p>
                 </AnchorLink>
                 <AnchorLink
-                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"
+                    className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311] transition duration-500"
                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
                     href={`#${SelectedPage.ContactUs}`}
                 >
@@ -45,7 +45,7 @@ const Footer = ({ setSelectedPage }: Props) => {
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Contact Us</h4>
                 <p className="my-5">customerservice@colibri.com</p>
-                <p>📞{" "}<span className="underline">(312)-275-2443</span></p>
+                <p>📞{" "}<span className="underline hover:text-[#fca311] transition duration-500">(312)-275-2443</span></p>
             </div>
         </div>
     </footer>

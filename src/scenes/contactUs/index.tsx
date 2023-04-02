@@ -37,15 +37,15 @@ const ContactUs = ({ setSelectedPage }: Props) => {
              viewport={{ once: true, amount: 0.5 }}
              transition={{ duration: 0.5 }}
              variants={{
-                hidden: { opacity: 0, x: -50 },
+                hidden: { opacity: 0, x: -90 },
                 visible: { opacity: 1, x: 0 },
              }}
             >
                 <HText>
-                    NEED AN<span className="text-[#FCA311]"> ESTIMATE?</span>
+                    GET YOUR<span className="text-[#FCA311]"> ESTIMATE</span>
                 </HText>
-                <p className="my-5">
-                    Fill out the form below to begin. Our team will get back to you right away regarding your inquiry.
+                <p className="my-5 lg:text-[20px]">
+                    We are committed to providing quality workmanship and customer service to our clients, and our team of experienced professionals will respond to your inquiry within two business days.
                 </p>
             </motion.div>
 
@@ -58,7 +58,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                  viewport={{ once: true, amount: 0.5 }}
                  transition={{ duration: 0.5 }}
                  variants={{
-                    hidden: { opacity: 0, x: -50 },
+                    hidden: { opacity: 0, x: -90 },
                     visible: { opacity: 1, x: 0 },
                  }}
                 >
@@ -139,9 +139,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}
+                    transition={{ delay: 0.5, duration: 1 }}
                     variants={{
-                    hidden: { opacity: 0, y: 50 },
+                    hidden: { opacity: 0, y: 90 },
                     visible: { opacity: 1, y: 0 },
                     }}
                 >

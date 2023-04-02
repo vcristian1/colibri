@@ -48,20 +48,21 @@ const Benefits = ({ setSelectedPage }: Props) => {
         >
             {/* HEADER HERE */}
             <motion.div
-             className='md:my-5 md:w-3/5'
+             className='md:my-5 md:w-3/5 lg:w-4/5'
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
-             transition={{ duration: 0.5 }}
+             transition={{ duration: 1 }}
              variants={{
-               hidden: { opacity: 0, x: -50 },
+               hidden: { opacity: 0, x: -90 },
                visible: { opacity: 1, x: 0 },
              }}
             >
                 <HText>THE BENEFTIS OF HIRING {" "}<span className='text-[#FCA311]'>COLIBRI</span></HText>
-                <p className="my-5">
+                <p className="my-5 lg:text-[20px]">
                 Colibri has been in the Construction Industry for over 20 years and has managed hundreds of successful home renovation and repair projects. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs.
                 </p>
+                <p className="my-5 lg:text-[20px]">We are committed to providing quality workmanship and customer service to our clients,  and our team of experienced professionals will ensure that all projects are completed on time and within budget. We will strive to exceed our clients’ expectations by providing superior service and quality workmanship.</p>
                 
             </motion.div>
 
@@ -70,9 +71,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
-             transition={{ delay: 0.5, duration: 0.5 }}
+             transition={{ delay: 0.50, duration: .75 }}
              variants={{
-               hidden: { opacity: 0, x: -50 },
+               hidden: { opacity: 0, x: -90 },
                visible: { opacity: 1, x: 0 },
              }}
             >
@@ -89,8 +90,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
              className='mt-5 items-center justify-between gap-8 md:flex'
              initial="hidden"
              whileInView="visible"
-             viewport={{  once: true, amount: 0.5 }}
-             transition={{ delay: 0.75, duration: 0.5 }}
+             viewport={{  once: true, amount: .5 }}
+             transition={{ delay: 0.5, duration: 1 }}
              variants={container}             
             >
                 {benefits.map((benefit: BenefitType) => (
@@ -105,7 +106,17 @@ const Benefits = ({ setSelectedPage }: Props) => {
             </motion.div>
 
             {/* BENEFITS GRAPHICS AND DESCRIPTION HERE */}
-            <div className='mt-16 items-center justify-between gap-20 md:mt-28 md:flex'>
+            <motion.div 
+             className='mt-16 items-center justify-between gap-20 md:mt-28 md:flex'
+             initial="visible"
+             whileInView="visible"
+             viewport={{ once: true, amount: 0.5 }}
+             transition={{ duration: 0.5 }}
+             variants={{
+              hidden: { opacity: 0, x: 90 },
+              visible: { opacity: 1, x: 0 },
+            }}
+            >
 
                 {/* GRAPHIC HERE */}
                 <img className="mx-auto" src={BenefitsPageGraphic} alt="benefits-page-graphic" />
@@ -114,15 +125,15 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 <div className='mb-[120px] md:mb-[60px] lg:mb-16'>
                     {/* TITLE HERE */}
                     <div className='relative'>
-                        <div className='mt-[120px] md:mt-[60px] lg-mt-[120px]'>
+                        <div className='mt-[120px] md:mt-[60px] lg-mt-[120px] '>
                             <motion.div
                              className='md:my-5 md:w-3/5'
                              initial="hidden"
                              whileInView="visible"
                              viewport={{ once: true, amount: 0.5 }}
-                             transition={{ duration: 0.5 }}
+                             transition={{ delay: 0.5, duration: 0.5 }}
                              variants={{
-                               hidden: { opacity: 0, x: 50 },
+                               hidden: { opacity: 0, x: 90 },
                                visible: { opacity: 1, x: 0 },
                              }}
                             >
@@ -139,34 +150,46 @@ const Benefits = ({ setSelectedPage }: Props) => {
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ delay: 0.2, duration: 0.5 }}
+                        transition={{ delay: 0.5, duration: 1 }}
                         variants={{
-                        hidden: { opacity: 0, x: 50 },
+                        hidden: { opacity: 0, x: 90 },
                         visible: { opacity: 1, x: 0 },
                         }}
                     >
                         
-                        <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-[#14213D]">
+                        <blockquote className="text-xl italic font-semibold text-[#14213d] dark:text-[#14213D]">
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
-                            <p className=''>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
-                            <p className='mt-5'>- Ruth Tolentino</p>
+                            <p className=''>"It was a best decision to use Colibri construction services for my recent kitchen remodeling. Carlos is a true expert and ensured I received quality items, and great designs."</p>
+                            <div className='flex items-center mt-5'>
+                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
+                                <p className='ml-5'>Edwin Reyes{""}</p>
+                                <p className='ml-5 text-[#fca311]'>2020</p>
+                            </div>
                         </blockquote>
 
-                        <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-[#14213D]">
+                        <blockquote className="text-xl italic font-semibold text-[#14213d] dark:text-[#14213D]">
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
-                            <p className=''>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
-                            <p className='mt-5'>- Ruth Tolentino</p>
+                            <p className=''>"From start to finish, Colibri exceeded all of my expectations and truly went above and beyond to ensure that my project was a success. The attention to detail and precision was very noticeable."</p>
+                            <div className='flex items-center mt-5'>
+                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
+                                <p className='ml-5'>Sara Mills{""}</p>
+                                <p className='ml-5 text-[#fca311]'>2021</p>
+                            </div>
                         </blockquote>
 
-                        <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-[#14213D]">
+                        <blockquote className="text-xl italic font-semibold text-[#14213d] dark:text-[#14213D]">
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
-                            <p className=''>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
-                            <p className='mt-5'>- Ruth Tolentino</p>
+                            <p className=''>"My house was destroyed by fire, Colibri construction services came and completely restored my house. The restoration was breathtaking, the quality of their work was outstanding. It was a total gut rehab and they rehabbed everything."</p>
+                            <div className='flex items-center mt-5'>
+                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
+                                <p className='ml-5'>Ruth T.{""}</p>
+                                <p className='ml-5 text-[#fca311]'>2022</p>
+                            </div>
                         </blockquote>
 
                     </motion.div>
                 </div>                
-            </div>
+            </motion.div>
         </motion.div>
     </section>
   )
