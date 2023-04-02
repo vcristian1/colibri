@@ -98,6 +98,8 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           ))}
         </ul>
       </motion.div>
+      <p className="md:hidden lg:hidden mt-12 text-center font-semibold">Swipe for more → </p>
+      
     </motion.div>
   </section>  
 )
