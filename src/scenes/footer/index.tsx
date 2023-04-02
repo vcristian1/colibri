@@ -30,9 +30,9 @@ const Footer = ({ setSelectedPage }: Props) => {
                 <AnchorLink
                     className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"
                     onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-                    href={`#${SelectedPage.OurClasses}`}
+                    href="#projects"
                 >
-                    <p className="text-[16px] mt-2">Our Classes</p>
+                    <p className="text-[16px] mt-2">Projects</p>
                 </AnchorLink>
                 <AnchorLink
                     className="text-sm font-bold text-secondary-500 underline hover:text-[#FCA311]"

@@ -20,7 +20,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap -16 bg-benefitremodel py-10 md:h-full"
+     className="gap-16 bg-[#E5E5E5] md:bg-benefitrenovation lg:bg-benefitremodel py-10 md:h-full md:w-full"
     >
         {/* Image and Main Header Here */}
         <motion.div 
@@ -55,7 +55,7 @@ const Home = ({ setSelectedPage }: Props) => {
                             <h1 className="text-[#FCA311] font-semibold text-3xl">Construction Services</h1>
                         </div>
                     </div>
-                    <p className="mt-8 text-[15px]">
+                    <p className="mt-8 text-[15px] font-semibold">
                     Colibri is a full-service construction company located in Chicago, IL. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs. We are committed to providing quality workmanship and customer service to our clients.
                     </p>
                 </motion.div>
@@ -87,7 +87,7 @@ const Home = ({ setSelectedPage }: Props) => {
 
         {/* Sponsors Here */}
         {isAboveMediumScreens && (
-            <div className="h-[150px] w-full bg-[#FFC132] py-10">
+            <div className="lg:mt-4 h-[158px] w-full bg-[#FFC132] py-10">
                 <motion.div 
                  className="mx-auto w-5/6"
                  initial="hidden"
@@ -100,9 +100,9 @@ const Home = ({ setSelectedPage }: Props) => {
                  }}
                 >
                     <div className="flex w-3/5 items-center justify-between gap-8">
-                        <img src={SponsorForbes} alt="sponsor-forbes" />
-                        <img src={SponsorFortune} alt="sponsor-fortune" />
-                        <img src={SponsorAG} alt="sponsor-ag" />
+                        <img className="mt-5 md:mt-5" src={SponsorForbes} alt="sponsor-forbes" />
+                        <img className="mt-5 md:mt-5" src={SponsorFortune} alt="sponsor-fortune" />
+                        <img className="mt-5 md:mt-5" src={SponsorAG} alt="sponsor-ag" />
                     </div>
                 </motion.div>
             </div>

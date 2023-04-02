@@ -13,34 +13,36 @@ import Class from "./Class";
 const classes: Array<ClassType> = [
   {
     name: "Basement Renovation",
-    description:
-      "A completely finished residential basement that was originally unfinished.",
+    description: "A finished residential basement in the Chicagoland area that was originally unfinished completed by Colibri in 2022.",
     image: image1,
   },
   {
     name: "Bathroom Renovation",
+    description: "A renovated residential bathroom in the Chicagoland area by Colibri in 2022.",
     image: image2,
   },
   {
-    name: "Ab Core Classes",
+    name: "Kitchen Renovation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image3,
-  },
-  {
-    name: "Adventure Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "A gut kitchen renovation in the Chicagoland area completed by Colibri in 2021.",
     image: image4,
   },
   {
-    name: "Fitness Classes",
+    
+    name: "Painting",
+    description:
+      "Colibri plastered and painted this living room in the Chicagoland area in 2023.",
+    image: image3,
+  },
+  {
+    name: "Flooring",
+    description: "Laminate flooring installed by Colibri in 2022",
     image: image5,
   },
   {
-    name: "Training Classes",
+    name: "Light Fixture Installation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Colibri installed the light fixtures in this home in 2022, as well as installed the floors and painted the walls.",
     image: image6,
   },
 ];
@@ -52,7 +54,7 @@ type Props = {
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
 
-  <section id="ourclasses" className="w-full bg-secondary-500 py-40">
+  <section id="projects" className="w-full bg-secondary-500 py-40">
     <motion.div
      onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
     >

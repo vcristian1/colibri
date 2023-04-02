@@ -66,22 +66,22 @@ const Benefits = ({ setSelectedPage }: Props) => {
             </motion.div>
 
             <motion.div
-             className='flex flex-wrap items-center gap-10 md:gap-14'
+             className='flex flex-wrap items-center gap-10 md:gap-14 mt-16 mb-16 lg:gap-[120px]'
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
-             transition={{ delay: 0.2, duration: 0.5 }}
+             transition={{ delay: 0.5, duration: 0.5 }}
              variants={{
                hidden: { opacity: 0, x: -50 },
                visible: { opacity: 1, x: 0 },
              }}
             >
-                <h4 className='md:mb-14 md:mt-14 mt-7 mb-7 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D]'>500{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 mt-7 mb-7 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] uppercase'>Completed Projects</p>
-                <h4 className='md:mb-14 md:mt-14 mt-7 mb-7 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D]'>20{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 mt-7 mb-7 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] uppercase'>Years of Experience</p>
-                <h4 className='md:mb-14 md:mt-14 mt-7 mb-7 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D]'>200{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 mt-7 mb-7 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] uppercase'>Trusted Customers</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] font-semibold'>500{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] uppercase font-semibold'>Completed Projects</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] font-semibold'>20{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] font-semibold uppercase'>Years of Experience</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] font-semibold'>200{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] uppercase font-semibold '>Trusted Customers</p>
             </motion.div>
 
             {/* BENEFITS HERE */}
@@ -89,7 +89,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
              className='mt-5 items-center justify-between gap-8 md:flex'
              initial="hidden"
              whileInView="visible"
-             viewport={{ once: true, amount: 0.5 }}
+             viewport={{  once: true, amount: 0.5 }}
+             transition={{ delay: 0.75, duration: 0.5 }}
              variants={container}             
             >
                 {benefits.map((benefit: BenefitType) => (
@@ -134,6 +135,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
 
                     {/* DESCRIPTION PT2 HERE */}
                     <motion.div
+                        className=''
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
@@ -144,22 +146,22 @@ const Benefits = ({ setSelectedPage }: Props) => {
                         }}
                     >
                         
-                        <blockquote className=" text-xl italic font-semibold text-gray-900 dark:text-[#14213D]">
+                        <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-[#14213D]">
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
                             <p className=''>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
-                            <p className='mt-5'>- Ruthie Tolentino</p>
+                            <p className='mt-5'>- Ruth Tolentino</p>
                         </blockquote>
 
                         <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-[#14213D]">
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
                             <p className=''>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
-                            <p className='mt-5'>- Ruthie Tolentino</p>
+                            <p className='mt-5'>- Ruth Tolentino</p>
                         </blockquote>
 
                         <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-[#14213D]">
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
                             <p className=''>"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
-                            <p className='mt-5'>- Ruthie Tolentino</p>
+                            <p className='mt-5'>- Ruth Tolentino</p>
                         </blockquote>
 
                     </motion.div>
