@@ -162,7 +162,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                             <p className=''>"It was a best decision to use Colibri construction services for my recent kitchen remodeling. Carlos is a true expert and ensured I received quality items, and great designs."</p>
                             <div className='flex items-center mt-5'>
                                 <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
-                                <p className='ml-5'>Edwin Reyes{""}</p>
+                                <p className='ml-5'>Ruth Tolentino{""}</p>
                                 <p className='ml-5 text-[#fca311]'>2020</p>
                             </div>
                         </blockquote>
@@ -171,8 +171,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
                             <p className=''>"From start to finish, Colibri exceeded all of my expectations and truly went above and beyond to ensure that my project was a success. The attention to detail and precision was very noticeable."</p>
                             <div className='flex items-center mt-5'>
-                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
-                                <p className='ml-5'>Sara Mills{""}</p>
+                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
+                                <p className='ml-5'>Santino Ross{""}</p>
                                 <p className='ml-5 text-[#fca311]'>2021</p>
                             </div>
                         </blockquote>
@@ -181,8 +181,8 @@ const Benefits = ({ setSelectedPage }: Props) => {
                             <svg aria-hidden="true" className="mt-10 w-10 h-10 text-[#14213D] dark:text-[#14213D" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
                             <p className=''>"My house was destroyed by fire, Colibri construction services came and completely restored my house. The restoration was breathtaking, the quality of their work was outstanding. It was a total gut rehab and they rehabbed everything."</p>
                             <div className='flex items-center mt-5'>
-                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
-                                <p className='ml-5'>Ruth T.{""}</p>
+                                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt=""></img>
+                                <p className='ml-5'>Edwin Reyes{""}</p>
                                 <p className='ml-5 text-[#fca311]'>2022</p>
                             </div>
                         </blockquote>
