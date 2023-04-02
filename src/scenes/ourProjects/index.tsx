@@ -60,7 +60,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
      onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
     >
       <motion.div
-       className="mx-auto w-5/6 before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext lg:before:content-evolvetext"
+       className="mx-auto w-5/6 before:-top-20 before:-left-20 before:z-[-1] sm:before:content-evolvetext md:before:content-evolvetext lg:before:content-evolvetext"
        initial="hidden"
        whileInView="visible"
        viewport={{ once: true, amount: 0.5 }}
