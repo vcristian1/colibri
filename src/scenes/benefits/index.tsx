@@ -77,12 +77,12 @@ const Benefits = ({ setSelectedPage }: Props) => {
                visible: { opacity: 1, x: 0 },
              }}
             >
-                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px]font-semibold'>500{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[20px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] uppercase font-semibold'>Completed Projects</p>
-                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px] font-semibold'>20{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[20px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] font-semibold uppercase'>Years of Experience</p>
-                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px] font-semibold'>200{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[20px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] uppercase font-semibold '>Trusted Customers</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[40px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px]font-semibold'>500{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[18px] text-[18px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] uppercase font-semibold'>Completed Projects</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[40px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px] font-semibold'>20{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[18px] text-[18px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] font-semibold uppercase'>Years of Experience</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[40px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px] font-semibold'>200{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[18px] text-[18px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] uppercase font-semibold '>Trusted Customers</p>
             </motion.div>
 
             {/* BENEFITS HERE */}

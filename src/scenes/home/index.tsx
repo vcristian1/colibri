@@ -55,7 +55,7 @@ const Home = ({ setSelectedPage }: Props) => {
                             <h1 className="text-[#FCA311] font-semibold text-3xl mt-5 ml-1 md:ml-0 md:mt-2 md:mb-10 lg:mt-5">Construction Services</h1>
                         </div>
                     </div>
-                    <p className="mt-8 text-[20px] md:text-[20px] font-semibold lg:text-[25px]">
+                    <p className="mt-8 text-[15px] md:text-[15px] font-semibold lg:text-[25px]">
                     Colibri is a full-service construction company located in Chicago, IL. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs. We are committed to providing quality workmanship and customer service to our clients.
                     </p>
                 </motion.div>
