@@ -139,7 +139,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
-                    transition={{ delay: 0.5, duration: 1 }}
+                    transition={{ delay: 0.5, duration: .5 }}
                     variants={{
                     hidden: { opacity: 0, y: 90 },
                     visible: { opacity: 1, y: 0 },

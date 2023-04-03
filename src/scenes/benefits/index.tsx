@@ -52,7 +52,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
-             transition={{ duration: 1 }}
+             transition={{ duration: .5 }}
              variants={{
                hidden: { opacity: 0, x: -90 },
                visible: { opacity: 1, x: 0 },
@@ -71,7 +71,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
-             transition={{ delay: 0.50, duration: .75 }}
+             transition={{ delay: 0.50, duration: .5 }}
              variants={{
                hidden: { opacity: 0, x: -90 },
                visible: { opacity: 1, x: 0 },
@@ -91,7 +91,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
              initial="hidden"
              whileInView="visible"
              viewport={{  once: true, amount: .5 }}
-             transition={{ delay: 0.5, duration: 1 }}
+             transition={{ delay: 0.5, duration: .5 }}
              variants={container}             
             >
                 {benefits.map((benefit: BenefitType) => (
@@ -150,7 +150,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.5 }}
-                        transition={{ delay: 0.5, duration: 1 }}
+                        transition={{ delay: 0.5, duration: .5 }}
                         variants={{
                         hidden: { opacity: 0, x: 90 },
                         visible: { opacity: 1, x: 0 },
