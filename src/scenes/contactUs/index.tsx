@@ -42,10 +42,10 @@ const ContactUs = ({ setSelectedPage }: Props) => {
              }}
             >
                 <HText>
-                    GET YOUR<span className="text-[#FCA311]"> ESTIMATE</span>
+                    SCHEDULE YOUR FREE<span className="text-[#FCA311]"> ESTIMATE</span>
                 </HText>
                 <p className="my-5 lg:text-[20px]">
-                    We are committed to providing quality workmanship and customer service to our clients, and our team of experienced professionals will respond to your inquiry within two business days.
+                With over 20 years of experience in the construction industry, allow Colibri to manage and complete your project within your requested time frame and budget. Our team of experienced professionals will respond to your inquiry within one business day.
                 </p>
             </motion.div>
 
@@ -91,24 +91,24 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                         <input className={inputStyles} type="text" placeholder='PHONE NUMBER' required {...register ("name", {
                             required: true
                         })}/>
-                        {errors.email && (
+                        {errors.phone && (
                             <p className="mt-1 text-primary-500">
-                              {errors.email.type === "required" && "This field is required."}
+                              {errors.phone.type === "required" && "This field is required."}
                             </p>
                         )}
-
-                        <input className={inputStyles} type="number" placeholder='BUDGET' required {...register ("name", {
+                        
+                        <input className={inputStyles} type="date" placeholder='APPOINTMENT DATE REQUESTED' required {...register ("name", {
                             required: true
                         })}/>
-                        {errors.email && (
+                        {errors.apptDate && (
                             <p className="mt-1 text-primary-500">
-                              {errors.email.type === "required" && "This field is required."}
+                              {errors.apptDate.type === "required" && "This field is required."}
                             </p>
                         )}
 
                         <textarea
                             className={inputStyles}
-                            placeholder="MESSAGE"
+                            placeholder="TELL US ABOUT YOUR PROJECT"
                             rows={4}
                             cols={50}
                             {...register("message", {
