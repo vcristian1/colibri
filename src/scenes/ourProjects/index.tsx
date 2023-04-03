@@ -72,6 +72,9 @@ const OurClasses = ({ setSelectedPage }: Props) => {
       >
         
         <HText>FEATURED PROJECTS</HText>
+        <p className="mt-8 text-[15px] font-semibold lg:text-[20px]">
+        We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs.
+        </p>
         
       </motion.div>
 
