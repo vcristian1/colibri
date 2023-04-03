@@ -30,7 +30,7 @@ module.exports = {
         
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
+        renovationtext: "url('./assets/RenovationText.png')",
         abstractwaves: "url('./assets/AbstractWaves.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
