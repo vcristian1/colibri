@@ -16,7 +16,7 @@ const Footer = ({ setSelectedPage }: Props) => {
                 <p className="my-5">
                 Colibri is committed to providing quality workmanship and customer service to our clients,  and our team of experienced professionals will ensure that all projects are completed on time and within budget.
                 </p>
-                <p>© Colibri All Rights Reserved.</p>
+                <p>©2023 Colibri All Rights Reserved.</p>
             </div>
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Links</h4>

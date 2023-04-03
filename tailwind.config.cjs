@@ -24,6 +24,7 @@ module.exports = {
         "benefitrenovation": "url('./assets/BenefitRenovation.png')",
         "benefitremodel": "url('./assets/BenefitRemodel.png')",
         "benefitrepair": "url('./assets/BenefitRepair.png')",
+        "benefitrepair1": "url('./assets/BenefitRepair1.png')",
       }),
       fontFamily: {
         sourcecodepro: ["Source Code Pro"],

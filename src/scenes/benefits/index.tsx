@@ -59,15 +59,15 @@ const Benefits = ({ setSelectedPage }: Props) => {
              }}
             >
                 <HText>THE BENEFTIS OF HIRING {" "}<span className='text-[#FCA311]'>COLIBRI</span></HText>
-                <p className="my-5 lg:text-[20px]">
+                <p className="my-5 md:text-[20px] lg:text-[25px] lg:mt-[80px]">
                 Colibri has been in the Construction Industry for over 20 years and has managed hundreds of successful home renovation and repair projects. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs.
                 </p>
-                <p className="my-5 lg:text-[20px]">We are committed to providing quality workmanship and customer service to our clients,  and our team of experienced professionals will ensure that all projects are completed on time and within budget. We will strive to exceed our clients’ expectations by providing superior service and quality workmanship.</p>
+                <p className="my-5 md:text-[20px] lg:text-[25px]">We are committed to providing quality workmanship and customer service to our clients,  and our team of experienced professionals will ensure that all projects are completed on time and within budget. We will strive to exceed our clients’ expectations by providing superior service and quality workmanship.</p>
                 
             </motion.div>
 
             <motion.div
-             className='flex flex-wrap items-center gap-10 md:gap-14 mt-16 mb-16 lg:gap-[120px]'
+             className='flex flex-wrap items-center gap-10 md:gap-14 lg:gap-20 mt-16 mb-16'
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
@@ -77,12 +77,12 @@ const Benefits = ({ setSelectedPage }: Props) => {
                visible: { opacity: 1, x: 0 },
              }}
             >
-                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] font-semibold'>500{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] uppercase font-semibold'>Completed Projects</p>
-                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] font-semibold'>20{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] font-semibold uppercase'>Years of Experience</p>
-                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] font-semibold'>200{""}<span className='text-[#FCA311]'>+</span></h4>
-                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-[#14213D] uppercase font-semibold '>Trusted Customers</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px]font-semibold'>500{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[20px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] uppercase font-semibold'>Completed Projects</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px] font-semibold'>20{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[20px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] font-semibold uppercase'>Years of Experience</p>
+                <h4 className='md:mb-14 md:mt-14 xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-[#14213D] lg:text-[35px] font-semibold'>200{""}<span className='text-[#FCA311]'>+</span></h4>
+                <p className='md:mb-14 md:mt-14 xs:text-[20px] text-[20px] xs:leading-[26px] leading-[21px] text-[#14213D] lg:text-[25px] uppercase font-semibold '>Trusted Customers</p>
             </motion.div>
 
             {/* BENEFITS HERE */}
@@ -125,7 +125,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 <div className='mb-[120px] md:mb-[60px] lg:mb-16'>
                     {/* TITLE HERE */}
                     <div className='relative'>
-                        <div className='mt-[120px] md:mt-[60px] lg-mt-[120px] '>
+                        <div className='mt-[120px] md:mt-[60px] lg-mt-[80px] lg:mb-[80px]'>
                             <motion.div
                              className='md:my-5 md:w-3/5'
                              initial="hidden"

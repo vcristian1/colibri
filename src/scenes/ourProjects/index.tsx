@@ -60,7 +60,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
      onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
     >
       <motion.div
-       className="mx-auto w-5/6 before:-top-20 before:-left-20 before:z-[-1]sm:before:content-renovationtext md:before:content-renovationtext lg:before:content-renovationtext"
+       className="mx-auto w-5/6 before:-top-20 before:-left-20 before:z-[-1] sm:before:content-renovationtext md:before:content-renovationtext lg:before:content-renovationtext"
        initial="hidden"
        whileInView="visible"
        viewport={{ once: true, amount: 0.5 }}
@@ -72,7 +72,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
       >
         
         <HText>FEATURED PROJECTS</HText>
-        <p className="mt-8 text-[15px] font-semibold lg:text-[20px]">
+        <p className="mt-8 text-[20px] md:text-[20px] font-semibold lg:text-[25px] lg:mt-[40px]">
         We strive to exceed our clients’ expectations by providing superior service and quality workmanship.        </p>
         
       </motion.div>
@@ -100,7 +100,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           ))}
         </ul>
       </motion.div>
-      <p className="md:hidden lg:hidden mt-12 text-center font-semibold">Swipe for more → </p>
+      <p className="md:hidden lg:hidden mt-12 text-center font-semibold sm:text-[16px]">Swipe for more → </p>
       
     </motion.div>
   </section>  

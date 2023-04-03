@@ -20,7 +20,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
      id="home"
-     className="gap-16 bg-[#E5E5E5] md:bg-benefitrenovation lg:bg-benefitremodel py-10 md:h-full md:w-full"
+     className="gap-16 bg-[#E5E5E5] xs:bg-benefitrepair1 bg-benefitrepair md:bg-benefitrenovation lg:bg-benefitremodel py-10 md:h-full md:w-full"
     >
         {/* Image and Main Header Here */}
         <motion.div 
@@ -36,7 +36,7 @@ const Home = ({ setSelectedPage }: Props) => {
          }}
         >
             {/* Main Header Here */}
-            <div className="z-10 mt-32 md:basis-3/5">
+            <div className="z-10 md:mt-44 mt-32 md:basis-3/5">
                 {/* Headings Here */}
                 <motion.div 
                  className="md:-mt-20"
@@ -50,12 +50,12 @@ const Home = ({ setSelectedPage }: Props) => {
                  }}
                 >
                     <div className="relative">
-                        <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:-mb-5">
-                            <img src={HomePageText} alt="home-page-text" />
+                        <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:-mb-2">
+                            <img className="md:-mb-5" src={HomePageText} alt="home-page-text" />
                             <h1 className="text-[#FCA311] font-semibold text-3xl mt-5 ml-1 md:ml-0 md:mt-2 md:mb-10 lg:mt-5">Construction Services</h1>
                         </div>
                     </div>
-                    <p className="mt-8 text-[15px] font-semibold lg:text-[20px]">
+                    <p className="mt-8 text-[20px] md:text-[20px] font-semibold lg:text-[25px]">
                     Colibri is a full-service construction company located in Chicago, IL. We specialize in residential and commercial construction projects, including remodeling, additions, renovations, and repairs. We are committed to providing quality workmanship and customer service to our clients.
                     </p>
                 </motion.div>
@@ -72,10 +72,11 @@ const Home = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0},
                  }}
                  >
-                    <ActionButton 
-                     setSelectedPage={setSelectedPage}
-                    > Request an Estimate 
-                    </ActionButton>
+                    <AnchorLink
+                     className="rounded-md bg-secondary-500 px-10 py-2 font-semibold text-[#14213D] hover:bg-[#FCA311] hover:text-white transition duration-500"
+                     href="#benefits"
+                    > Learn More 
+                    </AnchorLink>
                     
                 </motion.div>
             </div>

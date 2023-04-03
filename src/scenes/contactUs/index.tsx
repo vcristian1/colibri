@@ -44,7 +44,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 <HText>
                     SCHEDULE YOUR FREE<span className="text-[#FCA311]"> ESTIMATE</span>
                 </HText>
-                <p className="my-5 lg:text-[20px]">
+                <p className="my-5 lg:text-[20px] lg:mt-[40px]">
                 With over 20 years of experience in the construction industry, allow Colibri to manage and complete your project within your requested time frame and budget. Our team of experienced professionals will respond to your inquiry within one business day.
                 </p>
             </motion.div>
@@ -127,7 +127,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
                         <button
                             type="submit"
-                            className="text-[18px] mt-5 rounded-lg bg-secondary-500 hover:bg-[#FCA311] px-20 py-3 transition duration-500 hover:text-white hover:bg-primary"
+                            className="text-[18px] mt-5 rounded-lg bg-secondary-500 hover:bg-[#FCA311] px-20 py-3 transition duration-500 hover:text-white hover:bg-primary lg:mt-[80px]"
                         >
                             SUBMIT
                         </button>                        
