@@ -72,7 +72,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
       >
         
         <HText>FEATURED PROJECTS</HText>
-        <p className="mt-8 text-[20px] md:text-[20px] font-semibold lg:text-[25px] lg:mt-[40px]">
+        <p className="mt-8 text-[18px] md:text-[20px] font-semibold lg:text-[25px] lg:mt-[40px]">
         We strive to exceed our clients’ expectations by providing superior service and quality workmanship.        </p>
         
       </motion.div>
