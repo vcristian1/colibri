@@ -12,11 +12,12 @@ const Footer = ({ setSelectedPage }: Props) => {
         <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
             <div className="mt-16 basis-1/2 md:mt-0">
                 {/* <img src={Logo} alt="logo" /> */}
-                <h1 className="text-2xl">COLIBRI</h1>
+                <h1 className="text-2xl">COLIBRI CONSTRUCTION SERVICES</h1>
                 <p className="my-5">
-                Colibri is committed to providing quality workmanship and customer service to our clients,  and our team of experienced professionals will ensure that all projects are completed on time and within budget.
+                <span className="text-[#fca311]">Colibri</span> is committed to providing quality workmanship and customer service to our clients,  and our team of experienced professionals will ensure that all projects are completed on time and within budget.
                 </p>
                 <p>©2023 Colibri All Rights Reserved.</p>
+                <a target="_blank" rel="noreferrer" href="https://my-portfolio-beta-three-79.vercel.app/" className="text-[12px] hover:text-[#fca311] transition duration-500">Built by Cristian Carlos Vargas</a>
             </div>
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Links</h4>
@@ -45,7 +46,7 @@ const Footer = ({ setSelectedPage }: Props) => {
             <div className="mt-16 basis-1/4 md:mt-0">
                 <h4 className="font-bold">Contact Us</h4>
                 <p className="my-5">customerservice@colibri.com</p>
-                <p>📞{" "}<span className="underline hover:text-[#fca311] transition duration-500">(312)-275-2443</span></p>
+                📞<a href="tel:773-706-5634" className="underline transition duration-500 hover:text-[#FCA311]">(773)-706-5634</a>
             </div>
         </div>
     </footer>

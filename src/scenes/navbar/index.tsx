@@ -43,7 +43,7 @@ const Navbar = ({  isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                         {/* Inner Right Side (Sign In and Become a Member buttons)*/}
                         <div className={`${flexBetween} gap-2 md:gap-3 `}>
                             <ActionButton setSelectedPage={setSelectedPage}>Free Estimate</ActionButton>
-                            📞<p className="underline transition duration-500 hover:text-[#FCA311]">(312)-275-2443</p>
+                            📞<a href="tel:773-706-5634" className="underline transition duration-500 hover:text-[#FCA311]">(773)-706-5634</a>
                         </div>
                     </div>
                     ) : (
