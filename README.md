@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/vcristian1/ReactFit">
+  <a href="https://github.com/vcristian1/colibri">
   </a>
 
   <h3 align="center">React Fit</h3>
@@ -42,9 +42,9 @@
     <br />
     <a href="https://react-fit-nu.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/vcristian1/ReactFit/issues">Report Bug</a>
+    <a href="https://github.com/vcristian1/colibri/issues">Report Bug</a>
     ·
-    <a href="https://github.com/vcristian1/ReactFit/issues">Request Feature</a>
+    <a href="https://github.com/vcristian1/colibri/issues">Request Feature</a>
   </p>
 </div>
 
@@ -76,7 +76,7 @@
 <div class="text-center">
 </div>
 
-Welcome to React Fit! This project is a web application built using Typescript, React.js, Vite.js, & Vercel. The Framer Motion, React-Hook-Form, and React-Anchor-Link npm dependencies were also used to complete this project. Members and prospects can learn more about EvoGym's Benefits and Classes from visiting the website. If prospects would like to receive additional information, they can fill out the contact form on the bottom.
+This project is a web app for Colibri, a construction services company in Chicago, and was built using Typescript, React.js, Vite.js, & Vercel. The Framer Motion, React-Hook-Form, and React-Anchor-Link packages were also used to complete this project. Potential clients can learn more about Colibri's Services, Benefits, Past Projects, and Background. If a potential client would like to schedule a free estimate, they can fill out the contact form on the bottom.
 <br>
 <br>
 
@@ -124,7 +124,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Cristian Vargas - cristian.v0223@gmail.com
 
-Project Link: [https://github.com/vcristian1/ReactFit](https://github.com/vcristian1/ReactFit)
+Project Link: [https://github.com/vcristian1/colibri](https://github.com/vcristian1/colibri)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,16 +150,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/vcristian1/ReactFit?style=for-the-badge
-[contributors-url]: https://github.com/vcristian1/ReactFit/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vcristian1/ReactFit?style=for-the-badge
-[forks-url]: https://github.com/vcristian1/ReactFit/network/members
-[stars-shield]: https://img.shields.io/github/stars/vcristian1/ReactFit?style=for-the-badge
-[stars-url]: https://github.com/vcristian1/ReactFit/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vcristian1/ReactFit?style=for-the-badge
-[issues-url]: https://github.com/vcristian1/ReactFit/issues
-[license-shield]: https://img.shields.io/github/license/vcristian1/ReactFit?style=for-the-badge
-[license-url]: https://github.com/vcristian1/ReactFit/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/vcristian1/colibri?style=for-the-badge
+[contributors-url]: https://github.com/vcristian1/colibri/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vcristian1/colibri?style=for-the-badge
+[forks-url]: https://github.com/vcristian1/colibri/network/members
+[stars-shield]: https://img.shields.io/github/stars/vcristian1/colibri?style=for-the-badge
+[stars-url]: https://github.com/vcristian1/colibri/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vcristian1/colibri?style=for-the-badge
+[issues-url]: https://github.com/vcristian1/colibri/issues
+[license-shield]: https://img.shields.io/github/license/vcristian1/colibri?style=for-the-badge
+[license-url]: https://github.com/vcristian1/colibri/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/cristian-vargas-13686a1a3/
 [product-screenshot]: images/screenshot.png
