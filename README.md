@@ -33,10 +33,10 @@
   <a href="https://github.com/vcristian1/colibri">
   </a>
 
-  <h3 align="center">React Fit</h3>
+  <h3 align="center">Colibri</h3>
 
   <p align="center">
-    A web application built using Typescript, React.js, Vite.js, & Vercel for a Fitness Gym named EvoGym!
+    A web application built using Typescript, React.js, Vite.js, & Vercel for Coibri Construction Services!
     <br />
     <br />
     <br />
